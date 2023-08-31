@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buffet Planet Kids</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">
+                <img src="images/Logo-Planeta-Kids-Novo.webp"  width="10%" alt="Logo do Planeta Kids">
+                Planeta Kids
+            </h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-buffet" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre o buffet
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cardapio" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Nosso Cardápio
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-buffet">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/slides/slide1.jpg"  alt="Foto do buffet 1">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/slide2.jpg" alt="Foto do buffet 2">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/slide3.jpg" alt="Foto do buffet 3">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/slide4.jpg" alt="Foto do buffet 4">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
+                </div> 
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/buffet_kids.jpeg" class="d-block w-100 rounded" alt="Foto do espaço externo do buffet">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">o Buffet</span></h2>
+                            <p>
+                                Para tornar sua festa ou evento inesquecível, a nossa rede de Buffets em São Paulo, se tornou mais que um Salão de Festas.
+                            </p>
+                            <h3 class="section-title">Sobre <span class="text-colored">o espaço</span></h3>
+                            <p>
+                                O <strong>Planeta Kids é a maior rede de buffet infantil de São Paulo</strong>, oferece decoração exclusiva em um ambiente lúdico repleto de brinquedos, com cardápio diversificado e monitoria para as crianças, tudo para fazer da sua festa aconchegante e é claro muito divertida.
+                                Tudo que você sempre sonhou para realizar as melhores festas para crianças de todas as idades, você encontra aqui, no <strong>Planeta Kids</strong>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Para todas <span class="text-colored">as ocasiões</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="images/eventos/festa_infantil.jpg" alt="Foto de festa infantil" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-balloon-fill"></i>
+                            Festa Infantil
+                        </h3>
+                        <p>
+                            As festas para crianças são o carro chefe do buffet infantil Planeta Kids, nas festas as crianças terão à disposição uma vasta lista de brinquedos e jogos para toda família, além da área baby com monitoria especializada, e também a possibilidade de ter a decoração com diferentes temas para festas infantis.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/eventos/balada_teen.jpg" alt="Foto de balada teen" class="d-block w-100 rounded mb-2"">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            Balada Teen
+                        </h3>
+                        <p>
+                            Uma das modalidades de festas mais procuradas no Planeta Kids é a Balada Teen, celebrações para adolescentes de 12 a 17 anos, onde os jovens terão à disposição o salão e aos brinquedos da casa. Além de todo espaço e diversão, as festas também contam com os lanches deliciosos do nosso buffet, tudo para realizarem a festa top que sempre sonharam.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/eventos/debutantes.jpg" alt="Foto da festa de debutante" class="d-block w-100 rounded mb-2"">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-gem"></i>
+                            Debutantes
+                        </h3>
+                        <p>
+                            A festa mais popular entre os jovens com certeza é a festa de debutantes, que marca a tão esperada passagem da adolescência para a maturidade a tão sonhada festa de 15 anos. O momento mais esperado da vida de qualquer adolescente é a festa de debutante, uma festa que mistura tradição e descontração de um jeito único, para ficar para sempre registrada na memória da família e de seus convidados. 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cardapio" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nosso<span class="text-colored"> cardápio</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas" class="fw-bold text-start nav-link text-colored active">Bebidas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#mesa-gastronomica" class="fw-bold text-start nav-link text-colored">Mesa Gastronômica</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#pratos-principais" class="fw-bold text-start nav-link text-colored">Pratos principais</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas" class="fw-bold text-start nav-link text-colored">Sobremesas</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="bebidas">
+                                <div class="row">
+                                    <div class="col-md-3">  
+                                        <img class="d-block w-100" src="images/cardapio/bebidas/sucos.jpg" alt="Sucos">
+                                        <h5 class="text-colored fw-bold mt-2">Sucos</h5>
+                                        <p>
+                                            Sucos nos sabores laranja com morango, limão com gengibre, Uva com maçã e abacaxi com hortelã. Refrigerantes da Coca-Cola e água com e sem gás.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">  
+                                        <img class="d-block w-100" src="images/cardapio/bebidas/sucos.jpg" alt="Sucos">
+                                        <h5 class="text-colored fw-bold mt-2">Sucos</h5>
+                                        <p>
+                                            Sucos nos sabores laranja com morango, limão com gengibre, Uva com maçã e abacaxi com hortelã. Refrigerantes da Coca-Cola e água com e sem gás.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">  
+                                        <img class="d-block w-100" src="images/cardapio/bebidas/sucos.jpg" alt="Sucos">
+                                        <h5 class="text-colored fw-bold mt-2">Sucos</h5>
+                                        <p>
+                                            Sucos nos sabores laranja com morango, limão com gengibre, Uva com maçã e abacaxi com hortelã. Refrigerantes da Coca-Cola e água com e sem gás.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">  
+                                        <img class="d-block w-100" src="images/cardapio/bebidas/sucos.jpg" alt="Sucos">
+                                        <h5 class="text-colored fw-bold mt-2">Sucos</h5>
+                                        <p>
+                                            Sucos nos sabores laranja com morango, limão com gengibre, Uva com maçã e abacaxi com hortelã. Refrigerantes da Coca-Cola e água com e sem gás.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="mesa-gastronomica">
+                                <div class="row">
+                                    <div class="col-md-3">  
+                                        <img class="d-block w-100" src="images/cardapio/entradas/mesa_gastronomica.jpg" alt="Imagem de Mesa Gastronômica">
+                                        <h5 class="text-colored fw-bold mt-2">Mesa Gastronômica</h5>
+                                        <p>
+                                            A alimentação conta com sistema de autosserviço, onde todos os convidados ficam 100% a vontade para se servirem durante todo o evento.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">  
+                                        <img class="d-block w-100" src="images/cardapio/entradas/mesa_gastronomica.jpg" alt="Imagem de Mesa Gastronômica">
+                                        <h5 class="text-colored fw-bold mt-2">Mesa Gastronômica</h5>
+                                        <p>
+                                            Mesa de entrada com 8 tipos de "comidinhas", Lanches e 15 opções de Salgados fritos e assados durante toda a festa, inclusive massas gratinadas.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">  
+                                        <img class="d-block w-100" src="images/cardapio/entradas/mesa_gastronomica.jpg" alt="Imagem de Mesa Gastronômica">
+                                        <h5 class="text-colored fw-bold mt-2">Mesa Gastronômica</h5>
+                                        <p>
+                                            A alimentação conta com sistema de autosserviço, onde todos os convidados ficam 100% a vontade para se servirem durante todo o evento.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">  
+                                        <img class="d-block w-100" src="images/cardapio/entradas/mesa_gastronomica.jpg" alt="Imagem de Mesa Gastronômica">
+                                        <h5 class="text-colored fw-bold mt-2">Mesa Gastronômica</h5>
+                                        <p>
+                                            Mesa de entrada com 8 tipos de "comidinhas", Lanches e 15 opções de Salgados fritos e assados durante toda a festa, inclusive massas gratinadas.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="pratos-principais">
+                                <div class="row">
+                                    <div class="col-md-3">  
+                                        <img class="d-block w-100" src="images/cardapio/pratos/churrasco.jpg" alt="Churrasco">
+                                        <h5 class="text-colored fw-bold mt-2">Churrasco</h5>
+                                        <p>
+                                            Cardápio de Churrasco preparado com carnes de primeira linha e ingredientes selecionados.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">  
+                                        <img class="d-block w-100" src="images/cardapio/pratos/pizza.jpg" alt="Pizza">
+                                        <h5 class="text-colored fw-bold mt-2">Pizza</h5>
+                                        <p>
+                                            Cardápio de Pizza com vários sabores e ingredientes de primeira linha. São servidas sete variedades - entre salgada e doce - a escolha do cliente.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">  
+                                        <img class="d-block w-100" src="images/cardapio/pratos/churrasco.jpg" alt="Churrasco">
+                                        <h5 class="text-colored fw-bold mt-2">Churrasco</h5>
+                                        <p>
+                                            Cardápio de Churrasco preparado com carnes de primeira linha e ingredientes selecionados.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">  
+                                        <img class="d-block w-100" src="images/cardapio/pratos/pizza.jpg" alt="Pizza">
+                                        <h5 class="text-colored fw-bold mt-2">Pizza</h5>
+                                        <p>
+                                            Cardápio de Pizza com vários sabores e ingredientes de primeira linha. São servidas sete variedades - entre salgada e doce - a escolha do cliente.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="sobremesas">
+                                <div class="row">
+                                    <div class="col-md-3">  
+                                        <img class="d-block w-100" src="images/cardapio/sobremesas/bolos.jpg" alt="Bolo de chocolate">
+                                        <h5 class="text-colored fw-bold mt-2">Bolo de chocolate</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">  
+                                        <img class="d-block w-100" src="images/cardapio/sobremesas/cupcake.jpg" alt="Cupcake">
+                                        <h5 class="text-colored fw-bold mt-2">Cupcake</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">  
+                                        <img class="d-block w-100" src="images/cardapio/sobremesas/bolo.jpg" alt="Bolo">
+                                        <h5 class="text-colored fw-bold mt-2">Bolos sabores</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">Conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form id="formulario">
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" placeholder="Digite seu nome completo">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu email</label>
+                                <input type="email" id="email" class="form-control"  placeholder="Digite seu email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control" required placeholder="Digite seu numero telefonico">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required placeholder="Digite sua mensagem"></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                <i class="address">Rua Buffet, nº 123, Bairro Felicidade - São Paulo - SP</i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="text-center">
+                    <p class="mb-0">&copy; 2023 Buffet Planeta Kids - Todos os direitos reservados</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
